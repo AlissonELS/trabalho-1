@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>você esta caminhando na rua e encontra 2 caminhos novos, um a esquerda e outro a direita, qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="1">Esquerda</button>
+            <button class="btn-proximo" data-proximo="2">Direita</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você caminha pela rua desconhecida, aparentemente vai ser uma longa caminhada</p>
+            esquerda<button class="btn-proximo" data-proximo="3">você continua a caminhada até o fim </button>
+            <button class="btn-proximo" data-proximo="4">Desistir da caminhada longa e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Coincidentemente esta rua leva você de volta para casa. </p>
+           
+        </div>
+        <div class="passo" id="passo-3">
+            <p>no fim era apenas uma rua sem saida, você decide dar meia volta e ir para casa. </p>
+            
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que não vale apena o esforço e decide voltar para casa.</p>
+        </div>
+
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
